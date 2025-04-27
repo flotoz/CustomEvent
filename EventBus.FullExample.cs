@@ -1,4 +1,4 @@
-namespace FloToz.Namespace;
+namespace Medium.Examples;
 
 public interface IEvent { }
 public interface IEventHandler<in TEvent> where TEvent : IEvent
